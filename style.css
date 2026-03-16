@@ -191,7 +191,21 @@ footer {
     color: #888;
     font-size: 14px;
 }
+.project-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 18px;
+    background-color: #444;
+    color: #f5f5dc;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
 
+.project-btn:hover {
+    background-color: #f0e68c;
+    color: black;
+}
 /* MOBILE RESPONSIVENESS */
 @media (max-width: 900px) {
     .zigzag {
